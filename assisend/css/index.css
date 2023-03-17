@@ -93,7 +93,7 @@ header{
 	transition: 0.3s ease;
 }
 
-.navbar.action{
+.navbar.active{
 	display: flex;
 }
 
@@ -116,6 +116,16 @@ header{
 	display: flex;
 	column-gap: 1rem;
 	z-index: 200;
+}
+
+.nav-icons .fa{
+	font-size: 1.1rem;
+	color: var(--bg-color);
+	padding: 10px;
+	background: var(--main-color);
+	border-radius: 0.5rem;
+	cursor: pointer;
+
 }
 
 

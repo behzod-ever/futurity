@@ -140,5 +140,31 @@ header{
 
 }
 
+/* cart */
+cart{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(255, 255, 255, 0.74);
+	backdrop-filter: blur(4.5px);
+	z-index: 106;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: 0.3s ease;
+}
+
+.cart-content{
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: auto;
+	width: 100%;
+	padding: 20px;
+	row-gap: 1rem;
+}
+
 
 
